@@ -1,6 +1,27 @@
-.barra {
-    background-color: red;
+body {
+    background-color: lightgray;
+}
+
+nav {
     display: flex;
-    justify-content: center;
-    
+    background-color: lightcyan;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+.barras {
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: red;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly   ;
+    padding: 220px;
+    width: 100%;
+    background-color: brown;
 }
